@@ -1,0 +1,5643 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.headerspan {
+    color: rgba(0, 163, 255, 1);
+}
+
+
+
+@font-face {
+    font-family: 'aeonikprotrial-bold';
+    src: url(assets/font/aeonikprotrial-bold.otf);
+}
+
+@font-face {
+    font-family: 'aeonikprotrial-light';
+    src: url(assets/font/aeonikprotrial-light.otf);
+}
+
+@font-face {
+    font-family: 'aeonikprotrial-regular';
+    src: url(assets/font/aeonikprotrial-regular.otf);
+}
+
+.desktopContainer {
+    display: block;
+}
+
+.mobilehamburger {
+    display: none;
+}
+
+.voyance {
+    width: 100%;
+}
+
+.headerSection {
+    background-image: url(assets/image\ 3.png);
+    width: 100%;
+    /* height: 955px; */
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 81px;
+    background-size: cover;
+}
+
+.desktopContainer {
+    /* padding: 20px; */
+    width: 100%;
+    background: rgba(0, 45, 255, 0.2);
+
+}
+
+.navbar-width {
+    width: 94%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.navbarlist-width {
+    width: 38%;
+}
+
+
+.navbarButtons a {
+    /* padding: 20px; */
+    font-size: 14px;
+    font-family: 'aeonikprotrial-regular';
+
+
+}
+
+/* navbar button */
+.loginBtn {
+    padding: 8px 30px 9px 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(175, 175, 175, 1);
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-family: 'aeonikprotrial-regular';
+
+
+}
+
+.logo {
+    width: 29%;
+}
+
+/* navbar button */
+
+.getBtn {
+    padding: 9px 30px 9px 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 67, 199, 1);
+    background: rgba(19, 67, 199, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'aeonikprotrial-regular';
+
+}
+
+.navbarlist ul {
+    margin: 0;
+}
+
+.navbarlist ul li:nth-child(2) {
+    width: 17%;
+}
+
+.navbarlist ul li:nth-child(3) {
+    width: 20%;
+}
+
+
+/* heading section in hero section */
+.headingPart {
+
+    width: 55%;
+}
+
+.headingPart h1 {
+    width: 83%;
+    margin: 0 auto;
+    font-size: 45px;
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    padding-top: 83px;
+    line-height: 72px;
+    position: relative;
+
+}
+
+.headingimage {
+    position: absolute;
+    top: 26%;
+    width: 16%;
+    left: 54px;
+}
+
+.headingimage img {
+    width: 100%;
+}
+
+.heroPara p {
+    width: 83%;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 25px;
+}
+
+/* hero buttons */
+.heroButtons {
+    padding-top: 80px;
+    margin-bottom: 100px;
+    width: 83%;
+    margin: 0 auto;
+
+}
+
+.heroBtn-1 {
+    border: 1px solid rgba(175, 175, 175, 1);
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'aeonikprotrial-regular';
+    margin-right: 10px;
+
+}
+
+.heroBtn-2 {
+    border: 1px solid rgba(19, 67, 199, 1);
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    background: rgba(19, 67, 199, 1);
+    font-family: 'aeonikprotrial-regular';
+
+}
+
+/* image section in hero section */
+.imagePart {
+    width: 61%;
+}
+
+.imagePart img {
+    width: 100%;
+    mix-blend-mode: screen;
+    position: relative;
+}
+
+.imagePart .heroimage-2 img {
+    position: absolute;
+    top: 10%;
+    left: 74%;
+    width: 26%;
+}
+
+.headerBottom {
+    width: 68%;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.headerBottom .borderLeft {
+    border-top: 1px solid rgba(175, 175, 175, 1);
+    ;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.headerBottom .borderRight {
+    border-top: 1px solid rgba(175, 175, 175, 1);
+    ;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.headerBottom .trustedPara p {
+    width: 33%;
+    line-height: 26px;
+}
+
+.headerBottomLogo {
+    /* padding-top: 27px; */
+    margin-top: 27px;
+    width: 66%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 7px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.innerLogo {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.heroBottomImage {
+    width: 20%;
+
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 64%;
+}
+
+
+
+/*SECTION 1*/
+
+.Section-1 {
+    background-image: url(assets/Rectangle\ 47.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.RectangePart {
+    position: relative;
+}
+
+.whiteBoard {
+    width: 45%;
+    position: absolute;
+    top: 0;
+    left: 11%;
+}
+
+.playButton {
+    position: absolute;
+    top: 38%;
+    left: 44%;
+
+}
+
+.fastHeading {
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 50px;
+    margin-top: 167px;
+
+}
+
+.fastPara {
+    width: 81%;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+
+/*SECTION-2*/
+
+.Scetion-2 {
+    background-image: url(assets/Group\ 6334.png);
+    width: 100%;
+    margin-top: -162px;
+    padding-bottom: 120px;
+}
+
+.platformSection {
+    padding-top: 220px;
+    border-radius: 110px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Section-2-ImagesSection {
+    background: rgba(19, 67, 199, 1);
+    width: 40%;
+    /* padding-top: 100px; */
+    border-radius: 83px 0 0 83px;
+
+}
+
+.Section-2-ImagesSection img {
+    width: 88%;
+}
+
+.dataPlatformSection {
+    background-color: rgba(255, 255, 255, 1);
+    width: 60%;
+    border-radius: 0 83px 83px 0;
+
+}
+
+.PlatformParagraphs {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 35px;
+
+}
+
+.whyVoyance h3 {
+    font-size: 17px;
+    color: rgba(19, 67, 199, 1);
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.PlatformHeading h2 {
+    font-size: 30px;
+    padding-top: 18px;
+    line-height: 34.2px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    color: rgba(13, 13, 13, 1);
+    width: 89%;
+    margin: 0 auto;
+}
+
+
+.processingPara-1 {
+    width: 80%;
+}
+
+
+.header-1 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.headerlogo-1 {
+    width: 75%;
+}
+
+.PlatformPara-1 p {
+    font-size: 14px;
+    padding-top: 13px;
+
+}
+
+.header-2 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.headerlogo-2 {
+    width: 75%;
+}
+
+.PlatformPara-2 p {
+    font-size: 14px;
+}
+
+.PlatformPara-2 {
+    width: 87%;
+    padding-top: 13px;
+}
+
+.processingPara-2 {
+    width: 80%;
+}
+
+.PlatformParagraphs-2 {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 98px;
+
+}
+
+.processingPara-3 {
+    width: 80%;
+}
+
+
+.header-3 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.headerlogo-3 {
+    width: 71%;
+}
+
+.PlatformPara-3 p {
+    font-size: 14px;
+    padding-top: 13px;
+    width: 72%;
+
+}
+
+.processingPara-4 {
+    width: 87%;
+}
+
+
+.header-4 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.headerlogo-4 {
+    width: 92%;
+}
+
+.PlatformPara-4 p {
+    font-size: 14px;
+    padding-top: 13px;
+
+}
+
+
+/*SECTION-3*/
+.Section-3 {
+    width: 100%;
+    padding-bottom: 125px;
+}
+
+.ourService {
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 69px;
+}
+
+.we-Do-Part {
+    width: 40%;
+}
+
+.weDoHeader h3 {
+    font-size: 30px;
+    line-height: 34.2px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    width: 83%;
+    margin: 0 auto;
+}
+
+.weDoPara {}
+
+.weDoPara p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 26px;
+    width: 83%;
+    margin: 0 auto;
+
+}
+
+.weDoImage {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.weDoImage img {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.servicesPart {
+    width: 55%;
+    /* margin-top: 114px; */
+}
+
+
+.cardsSection-1 {
+    width: 89%;
+    /* margin: 0 auto; */
+}
+
+.card-1 {
+    width: 48%;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+
+}
+
+.card-1Logo {
+    border: 12px solid rgba(0, 163, 255, 0.65);
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-top: 25px;
+    /* text-align: center; */
+}
+
+.card-1Header h3 {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.card-1Para p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    width: 87%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+.card-2 {
+    width: 48%;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+
+}
+
+.card-2Logo {
+    border: 12px solid rgba(0, 163, 255, 0.65);
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-top: 25px;
+    /* text-align: center; */
+}
+
+.card-2Header h3 {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.card-2Para p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    width: 87%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+
+
+.cardsSection-2 {
+    width: 89%;
+    /* margin: 0 auto; */
+    padding-top: 50px;
+}
+
+.card-3 {
+    width: 48%;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+
+}
+
+.card-3Logo {
+    border: 12px solid rgba(0, 163, 255, 0.65);
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-top: 25px;
+    /* text-align: center; */
+}
+
+.card-3Header h3 {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.card-3Para p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    width: 98%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+.card-4 {
+    width: 48%;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+
+}
+
+.card-4Logo {
+    border: 12px solid rgba(0, 163, 255, 0.65);
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-top: 25px;
+    /* text-align: center; */
+}
+
+.card-4Header h3 {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+
+}
+
+.card-4Para p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    width: 87%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+.Section-4 {
+    background-image: url(assets/Group\ 6340.png);
+    width: 100%;
+    padding-bottom: 42px;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-4UpperCards {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.saveTimeCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.saveCardIcon {
+    width: 33%;
+    padding-left: 28px;
+}
+
+.saveCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.saveHeader h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.savePara p {
+    width: 81%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.easyToCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.easyCardIcon {
+    width: 33%;
+    padding-left: 28px;
+}
+
+.easyCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.easyHeader h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.easyPara p {
+    width: 81%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.clientPart {
+    width: 49%;
+
+}
+
+.clientPart p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 22.8px;
+}
+
+.clientPart h2 {
+    font-size: 31px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 34.2px;
+}
+
+.sec-4LowerCards {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 27px;
+}
+
+.accurateCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.accurateCardIcon {
+    width: 33%;
+    padding-left: 28px;
+}
+
+.accurateCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.accurateHeader h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.accuratePara p {
+    width: 81%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.friendlyCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.friendlyCardIcon {
+    width: 27%;
+    padding-left: 28px;
+}
+
+.friendlyCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.friendlyHeader h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.friendlyPara p {
+    width: 81%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.ScalableCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.ScalableCardIcon {
+    width: 27%;
+    padding-left: 28px;
+}
+
+.ScalableCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.ScalableHeader h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.ScalablePara p {
+    width: 81%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.supportCard {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.16);
+    width: 23%;
+    border-radius: 10px;
+
+}
+
+.supportCardIcon {
+    width: 20%;
+    padding-left: 28px;
+}
+
+.supportCardIcon img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.supportHeader h3 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-bold';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.supportPara p {
+    width: 81%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'aeonikprotrial-regular';
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+/*SECTION-5*/
+.Section-5 {
+    background-image: url(assets/Group\ 6341.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.integrateSection {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.integrateImage {
+    width: 55%;
+}
+
+.integratecontent {
+    width: 65%;
+}
+
+.intergrateHeader h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 50px;
+    padding-top: 171px;
+
+}
+
+.intergratePara p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.object {
+    position: relative;
+    top: 6%;
+    width: 20%;
+    left: 68%;
+}
+
+.Section-6 {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.resourcesHeading h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 34.2px;
+    padding-top: 78px;
+}
+
+.resourcesImage {
+    padding-top: 40px;
+}
+
+.resourcesCards {
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 17px
+}
+
+
+.resourcesDetails {
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.resourcesCardDetails {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 33px;
+}
+
+.resCard1 {
+    width: 30%;
+}
+
+.resCard2 {
+    width: 30%;
+}
+
+.resCard3 {
+    width: 30%;
+}
+
+.card-1-Details {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card-2-Details {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.card-3-Details {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.card-1-Heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 28px;
+}
+
+.card-1-Para p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-regular';
+}
+
+.card-2-Heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 28px;
+}
+
+.card-2-Para p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-regular';
+}
+
+.card-3-Heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 28px;
+}
+
+.card-3-Para p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'aeonikprotrial-regular';
+}
+
+
+
+.details-1 .span1 {
+    width: 58%;
+}
+
+.details-1 .span1 .voyanceText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+
+}
+
+.details-1 .span1 .twitterText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+}
+
+.details-1 .span2 {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+    width: 47%;
+
+}
+
+.voyance-Name-logo {
+    width: 35%;
+    padding-top: 30px;
+}
+
+.voyanceLogo img {
+    width: 86%;
+}
+
+.voyanceName {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+}
+
+.details-1 {
+    width: 100%;
+}
+
+.details-2 {
+    width: 100%;
+    margin-top: 46px;
+
+}
+
+.details-2 .span1 {
+    width: 73%;
+}
+
+.details-2 .span1 .dataText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+}
+
+.details-2 .span1 .autoText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+}
+
+.details-2 .span2 {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+    width: 53%;
+
+}
+
+.DataPlatform-logo {
+    width: 43%;
+    padding-top: 30px;
+}
+
+.DataLogo img {
+    width: 86%;
+}
+
+.DataName {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+}
+
+.details-3 {
+    width: 100%;
+
+}
+
+.details-3 .span1 {
+    width: 54%;
+}
+
+.details-3 .span1 .voyanceText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+}
+
+.details-3 .span1 .pipelineText {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+
+}
+
+.details-3 .span2 {
+    color: rgba(19, 67, 199, 1);
+    padding: 5px;
+    background-color: rgba(176, 176, 176, 0.15);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 28px;
+    border-radius: 4px;
+    width: 39%;
+
+}
+
+.voyance-Name-2-logo {
+    width: 32%;
+    padding-top: 30px;
+}
+
+.voyanceLogo img {
+    width: 86%;
+}
+
+.voyanceName {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+}
+
+.Section-7 {
+    width: 100%;
+    background-color: rgba(19, 19, 19, 1);
+    /* padding-top: 50p; */
+}
+
+.reduceImage {
+    width: 13%;
+}
+
+.reduceContext {
+    width: 91%;
+    padding-top: 65px;
+}
+
+.reduceHeader {
+    position: relative;
+}
+
+.reduceHeader h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 45.6px;
+}
+
+.vector2 {
+    position: absolute;
+    top: 84%;
+    left: 45%;
+}
+
+.reduceButton {
+    padding-top: 30px;
+}
+
+.reduceButton a button {
+    padding: 6px 25px;
+    background-color: rgb(19 67 199);
+    border: 1px solid rgb(19 67 199);
+    border-radius: 5px;
+}
+
+/*SECTION_8*/
+
+.Section-8 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sliderHeader h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.2px;
+    font-family: 'aeonikprotrial-bold';
+    position: relative;
+    top: 34px;
+    left: -93px;
+
+}
+
+.SliderPara p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 30px;
+    width: 93%;
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+.SliderName h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'aeonikprotrial-bold';
+    line-height: 24px;
+    margin: 0 auto;
+    width: 93%;
+    padding-top: 28px;
+}
+
+.SliderPosition p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'aeonikprotrial-regular';
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(19, 67, 199, 1);
+    margin: 0 auto;
+    width: 93%;
+    padding-top: 8px;
+}
+
+#carouselSlider {
+    width: 77% !important;
+    margin: 0 auto;
+}
+
+.SliderRight {
+    width: 66%;
+}
+
+.Sliderbuttons {
+    position: relative;
+    top: -94px;
+    left: -131px;
+    width: 8%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.3;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
+}
+
+
+
+/*footerSection*/
+.footerSection {
+    background-image: url(assets/Group\ 6322\ \(1\).png);
+    width: 100%;
+    padding-bottom: 21px;
+    background-size: cover;
+}
+
+.footervoyance {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.voyanceFooterHeader {
+    width: 22%;
+}
+
+.companyHead h4 {
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+}
+
+.productsHead h4 {
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+}
+
+.legal h4 {
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.support h4 {
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.resources h4 {
+    font-family: 'aeonikprotrial-bold';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.company ul li {
+    font-family: 'aeonikprotrial-regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+
+}
+
+.products ul li {
+    font-family: 'aeonikprotrial-regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+
+}
+
+.legal ul li {
+    font-family: 'aeonikprotrial-regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+
+}
+
+.support ul li {
+    font-family: 'aeonikprotrial-regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+
+}
+
+.resources ul li {
+    font-family: 'aeonikprotrial-regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 10px;
+
+}
+
+.socialHandles {
+    padding-top: 32px;
+}
+
+.footerbordertop {
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    width: 90%;
+    margin: 0 auto;
+    /* padding-bottom: 50px; */
+}
+
+.footerCookie {
+    margin: 0;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footerAddress {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.voyanceaddress {
+    width: 24%;
+}
+
+.address p {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.voyancecontact {
+    width: 17%;
+}
+
+.contact p {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27.2px;
+}
+
+.voyanceemail {
+    width: 29%;
+}
+
+.email p {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27.2px;
+}
+
+
+@media (min-width:320px) and (max-width:479px) {
+
+    .desktopContainer {
+        display: none;
+    }
+
+    .mobilehamburger {
+        display: block;
+        background: rgb(23, 39, 145);
+    }
+
+    .hamburgerBar {
+        padding: 15px;
+    }
+
+    .InsideHamburger {
+        display: none;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background: rgb(23, 39, 145);  
+        z-index: 99;
+        height: 100vh;
+
+    }
+
+    .InsideHamburger ul li {
+        padding: 10px;
+    }
+
+    .MobilenavbarButtons {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .MobilexnavbarButtons a {
+        /* padding: 20px; */
+        font-size: 14px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .imagePart {
+        display: none;
+    }
+
+    .headingPart {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/39f6a005763b37e2237b320df0e68e31\ 1.png);
+        mix-blend-mode: screen;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headingPart h1 {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 35px;
+        line-height: 68px;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 19%;
+        width: 44%;
+        left: 21px;
+    }
+
+    .heroPara p {
+        width: 92%;
+        padding-top: 2px;
+    }
+
+    .heroBtn-1 {
+        margin-bottom: 10px;
+    }
+
+    .heroBottomImage {
+        display: none;
+    }
+
+    .heroButtons {
+        padding-top: 32px;
+        width: 92%;
+    }
+
+    .headerBottom {
+        width: 89%;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        padding-top: 29px;
+        flex-direction: column;
+    }
+
+    .headerBottom .borderLeft {
+        width: 100%;
+    }
+
+    .headerBottom .borderRight {
+        width: 100%;
+    }
+
+    .trustedPara {
+        text-align: center;
+    }
+
+    .headerBottomLogo {
+        width: 92%;
+    }
+
+    .innerLogo {
+        flex-direction: column;
+    }
+
+    .bottomLogo-1 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-2 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-3 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Section-1 {
+        padding: 0 0 215px 0;
+    }
+
+    .fullSec {
+        flex-direction: column-reverse;
+    }
+
+    .clientPart h2 {
+        font-size: 22px;}
+    .fastDataPart {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .fastHeading {
+        margin-top: 35px;
+    }
+
+    .fastPara {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .whiteBoard {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .playButton {
+        width: 16%;
+        top: 49%;
+        left: 41%;
+
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .mask {
+        width: 100%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .Section-2-ImagesSection {
+        display: none !important;
+    }
+
+
+    .dataPlatformSection {
+        width: 100%;
+        border-radius: 83px;
+    }
+
+    .platformSection {
+        padding-top: 60px;
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 78%;
+    }
+
+    .headerlogo-2 {
+        width: 78%;
+    }
+
+    .headerlogo-3 {
+        width: 58%;
+    }
+
+    .headerlogo-4 {
+        width: 88%;
+    }
+
+    .Scetion-2 {
+        padding-bottom: 17px;
+    }
+
+    .ourService {
+        width: 100%;
+    }
+
+    .we-Do-Part {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .weDoHeader h3 {
+        font-size: 36px;
+    }
+
+    .weDoPara {
+        margin-top: 20px;
+    }
+
+    .servicesPart {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .cardsSection-1 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .cardsSection-2 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .card-1 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    .card-3 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-4 {
+        width: 100%;
+    }
+
+    .Section-3 {
+        padding-bottom: 46px;
+    }
+
+    .Section-4 .clientPart {
+        width: 100%;
+    }
+
+    .easyToCard {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .saveTimeCard {
+        width: 100%;
+    }
+
+    .supportCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .ScalableCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .friendlyCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .accurateCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .Section-5 {
+        background-size: cover;
+
+    }
+
+    .object {
+        display: none;
+    }
+
+    .intergrateHeader h2 {
+        padding-top: 44px;
+    }
+
+    .integratecontent {
+        width: 100%;
+    }
+
+    .integrateImage {
+        width: 100%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .Section-6 {
+        padding-bottom: 16px;
+    }
+
+    .resourcesHeading h3 {
+        width: 94%;
+        margin: 0 autoa;
+    }
+
+    .resourcesCards {
+        width: 95%;
+    }
+
+    .resCard1 {
+        width: 100%;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .details-1 .span1 {
+        width: 59%;
+    }
+
+    .details-1 .span2 {
+        width: 55%;
+    }
+
+    .voyance-Name-logo {
+        width: 43%;
+        padding-top: 14px;
+    }
+
+    .resCard2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .details-2 .span1 {
+        width: 75%;
+    }
+
+    .details-2 .span2 {
+        width: 62%;
+    }
+
+    .DataPlatform-logo {
+        width: 53%;
+        padding-top: 21px;
+    }
+
+    .resCard3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .details-3 .span1 {
+        width: 55%;
+    }
+
+    .details-3 .span2 {
+        width: 47%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 43%;
+        padding-top: 23px;
+    }
+
+    .Section-7 {
+        padding-bottom: 30px;
+    }
+
+    .reduceContext {
+        width: 100%;
+        padding-top: 33px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    .reduceHeader h3 {
+        font-size: 33px;
+    }
+
+    .vector2 img {
+        width: 100%;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 84%;
+        left: 45%;
+    }
+
+    .SliderLeft {
+        width: 100%;
+    }
+
+    .SliderLeft img {
+        width: 100%;
+    }
+
+    .SliderRight {
+        width: 100%;
+    }
+
+    .sliderHeader h3 {
+        top: 0;
+        left: -53px;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        left: 198px;
+        width: 29%;
+        top: -25px;
+    }
+
+    .footervoyance {
+        width: 89%;
+        margin: 0 auto;
+    }
+
+    .voyanceFooterHeader {
+        width: 54%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .company {
+        width: 48%;
+        padding-bottom: 27px;
+    }
+
+    .products {
+        width: 48%;
+        padding-bottom: 27px;
+
+
+    }
+
+    .legal {
+        width: 48%;
+        padding-bottom: 27px;
+
+    }
+
+    .support {
+        width: 48%;
+        padding-bottom: 27px;
+
+    }
+
+    .resources {
+        width: 54%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+
+    }
+
+    .footerAddress {
+        width: 100%;
+        text-align: start;
+        padding: 0 0 0 21px;
+    }
+
+    .voyanceaddress {
+        width: 62%;
+    }
+
+    .voyancecontact {
+        width: 47%;
+    }
+
+    .voyanceemail {
+        width: 73%;
+    }
+
+}
+
+@media (min-width:480px) and (max-width:567px) {
+    .desktopContainer {
+        display: none;
+    }
+
+    .mobilehamburger {
+        display: block;
+        background: rgb(23, 39, 145);
+    }
+
+    .hamburgerBar {
+        padding: 15px;
+    }
+
+    .InsideHamburger {
+        display: none;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background: rgb(23, 39, 145);
+        ;
+        z-index: 99;
+        height: 100vh;
+    }
+
+    .InsideHamburger ul li {
+        padding: 10px;
+    }
+
+    .MobilenavbarButtons {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .MobilexnavbarButtons a {
+        /* padding: 20px; */
+        font-size: 14px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .imagePart {
+        display: none;
+    }
+
+    .headingPart {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/39f6a005763b37e2237b320df0e68e31\ 1.png);
+        mix-blend-mode: screen;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headingPart h1 {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 35px;
+        line-height: 68px;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 22%;
+        width: 38%;
+        left: 14px;
+    }
+
+    .heroPara p {
+        width: 92%;
+        padding-top: 2px;
+    }
+
+    .heroBtn-1 {
+        margin-bottom: 10px;
+    }
+
+    .heroBottomImage {
+        display: none;
+    }
+
+    .heroButtons {
+        padding-top: 32px;
+        width: 92%;
+    }
+
+    .headerBottom {
+        width: 89%;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        padding-top: 29px;
+        flex-direction: column;
+    }
+
+    .headerBottom .borderLeft {
+        width: 100%;
+    }
+
+    .headerBottom .borderRight {
+        width: 100%;
+    }
+
+    .trustedPara {
+        text-align: center;
+    }
+
+    .headerBottomLogo {
+        width: 92%;
+    }
+
+    .innerLogo {
+        flex-direction: column;
+    }
+
+    .bottomLogo-1 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-2 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-3 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Section-1 {
+        padding: 0 0 215px 0;
+    }
+
+    .fullSec {
+        flex-direction: column-reverse;
+    }
+
+    .fastDataPart {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .fastHeading {
+        margin-top: 35px;
+    }
+
+    .fastPara {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .whiteBoard {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .playButton {
+        width: 16%;
+        top: 49%;
+        left: 41%;
+
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .mask {
+        width: 100%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .Section-2-ImagesSection {
+        display: none !important;
+    }
+
+    .dataPlatformSection {
+        width: 100%;
+        border-radius: 83px;
+    }
+
+    .platformSection {
+        padding-top: 60px;
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 62%;
+    }
+
+    .headerlogo-2 {
+        width: 62%;
+    }
+
+    .headerlogo-3 {
+        width: 47%;
+    }
+
+    .headerlogo-4 {
+        width: 71%;
+    }
+
+    .Scetion-2 {
+        padding-bottom: 0;
+    }
+
+    .ourService {
+        width: 100%;
+    }
+
+    .easyCardIcon img {
+        width: 58%;
+    }
+
+    .easyCardIcon {
+        padding-left: 44px;
+    }
+
+    .saveCardIcon img {
+        width: 58%;
+    }
+
+    .saveCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon img {
+        width: 58%;
+    }
+
+    .friendlyCardIcon {
+        padding-left: 44px;
+    }
+
+    .friendlyCardIcon img {
+        width: 58%;
+    }
+
+    .ScalableCardIcon {
+        padding-left: 44px;
+    }
+
+    .ScalableCardIcon img {
+        width: 58%;
+    }
+
+    .supportCardIcon {
+        padding-left: 44px;
+    }
+
+    .supportCardIcon img {
+        width: 82%;
+    }
+
+    .we-Do-Part {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .weDoHeader h3 {
+        font-size: 36px;
+    }
+
+    .weDoPara {
+        margin-top: 20px;
+    }
+
+    .servicesPart {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .cardsSection-1 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .cardsSection-2 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .card-1 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    .card-3 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-4 {
+        width: 100%;
+    }
+
+    .Section-3 {
+        padding-bottom: 46px;
+    }
+
+    .Section-4 .clientPart {
+        width: 100%;
+    }
+
+    .easyToCard {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .saveTimeCard {
+        width: 100%;
+    }
+
+    .supportCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .ScalableCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .friendlyCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .accurateCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .Section-5 {
+        background-size: cover;
+
+    }
+
+    .object {
+        display: none;
+    }
+
+    .intergrateHeader h2 {
+        padding-top: 44px;
+    }
+
+    .integratecontent {
+        width: 100%;
+    }
+
+    .integrateImage {
+        width: 100%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .Section-6 {
+        padding-bottom: 16px;
+    }
+
+    .resourcesHeading h3 {
+        width: 94%;
+        margin: 0 autoa;
+    }
+
+    .resourcesCards {
+        width: 95%;
+    }
+
+    .resCard1 {
+        width: 100%;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .details-1 .span1 {
+        width: 46%;
+    }
+
+    .details-1 .span2 {
+        width: 55%;
+    }
+
+    .voyance-Name-logo {
+        width: 29%;
+        padding-top: 14px;
+    }
+
+    .resCard2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .details-2 .span1 {
+        width: 58%;
+    }
+
+    .details-2 .span2 {
+        width: 62%;
+    }
+
+    .DataPlatform-logo {
+        width: 36%;
+        padding-top: 21px;
+    }
+
+    .resCard3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .details-3 .span1 {
+        width: 43%;
+    }
+
+    .details-3 .span2 {
+        width: 47%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 29%;
+        padding-top: 23px;
+    }
+
+    .Section-7 {
+        padding-bottom: 30px;
+    }
+
+    .reduceContext {
+        width: 100%;
+        padding-top: 33px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    .reduceHeader h3 {
+        font-size: 33px;
+    }
+
+    .vector2 img {
+        width: 100%;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 84%;
+        left: 45%;
+    }
+
+    .SliderLeft {
+        width: 100%;
+    }
+
+    .SliderLeft img {
+        width: 100%;
+    }
+
+    .SliderRight {
+        width: 100%;
+    }
+
+    .sliderHeader h3 {
+        top: 0;
+        left: -53px;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        left: 228px;
+        width: 29%;
+        top: -23px;
+    }
+
+    .footervoyance {
+        width: 89%;
+        margin: 0 auto;
+    }
+
+    .voyanceFooterHeader {
+        width: 54%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .company {
+        width: 48%;
+        padding-bottom: 27px;
+    }
+
+    .products {
+        width: 48%;
+        padding-bottom: 27px;
+
+
+    }
+
+    .legal {
+        width: 48%;
+        padding-bottom: 27px;
+
+    }
+
+    .support {
+        width: 48%;
+        padding-bottom: 27px;
+
+    }
+
+    .resources {
+        width: 54%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+
+    }
+
+    .footerAddress {
+        width: 100%;
+        text-align: start;
+        padding: 0 0 0 21px;
+    }
+
+    .voyanceaddress {
+        width: 48%;
+    }
+
+    .voyancecontact {
+        width: 35%;
+    }
+
+    .voyanceemail {
+        width: 56%;
+    }
+
+}
+
+@media (min-width:568px) and (max-width:684px) {
+    .desktopContainer {
+        display: none;
+    }
+
+    .mobilehamburger {
+        display: block;
+        background: rgb(23, 39, 145);
+    }
+
+    .hamburgerBar {
+        padding: 15px;
+    }
+
+    .InsideHamburger {
+        display: none;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background: rgb(23, 39, 145);
+        ;
+        z-index: 99;
+        height: 100vh;
+    }
+
+    .InsideHamburger ul li {
+        padding: 10px;
+    }
+
+    .MobilenavbarButtons {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .MobilexnavbarButtons a {
+        /* padding: 20px; */
+        font-size: 14px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .imagePart {
+        display: none;
+    }
+
+    .headingPart {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/39f6a005763b37e2237b320df0e68e31\ 1.png);
+        mix-blend-mode: screen;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headingPart h1 {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 35px;
+        line-height: 68px;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 22%;
+        width: 38%;
+        left: 14px;
+    }
+
+    .heroPara p {
+        width: 92%;
+        padding-top: 2px;
+    }
+
+    .heroBtn-1 {
+        margin-bottom: 10px;
+    }
+
+    .heroBottomImage {
+        display: none;
+    }
+
+    .heroButtons {
+        padding-top: 32px;
+        width: 92%;
+    }
+
+    .headerBottom {
+        width: 89%;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        padding-top: 29px;
+        flex-direction: column;
+    }
+
+    .headerBottom .borderLeft {
+        width: 100%;
+    }
+
+    .headerBottom .borderRight {
+        width: 100%;
+    }
+
+    .trustedPara {
+        text-align: center;
+    }
+
+    .headerBottomLogo {
+        width: 92%;
+    }
+
+    .innerLogo {
+        flex-direction: column;
+    }
+
+    .bottomLogo-1 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-2 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-3 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Section-1 {
+        padding: 0 0 215px 0;
+    }
+
+    .fullSec {
+        flex-direction: column-reverse;
+    }
+
+    .fastDataPart {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .fastHeading {
+        margin-top: 35px;
+    }
+
+    .fastPara {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .whiteBoard {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .playButton {
+        width: 16%;
+        top: 49%;
+        left: 41%;
+
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .mask {
+        width: 100%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .Section-2-ImagesSection {
+        display: none !important;
+    }
+
+    .dataPlatformSection {
+        width: 100%;
+        border-radius: 83px;
+    }
+
+    .platformSection {
+        padding-top: 60px;
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 62%;
+    }
+
+    .headerlogo-2 {
+        width: 62%;
+    }
+
+    .headerlogo-3 {
+        width: 47%;
+    }
+
+    .headerlogo-4 {
+        width: 71%;
+    }
+
+    .Scetion-2 {
+        padding-bottom: 0;
+    }
+
+    .ourService {
+        width: 100%;
+    }
+
+    .easyCardIcon img {
+        width: 40%;
+    }
+
+    .easyCardIcon {
+        padding-left: 44px;
+    }
+
+    .saveCardIcon img {
+        width: 40%;
+    }
+
+    .saveCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon img {
+        width: 40%;
+    }
+
+    .friendlyCardIcon {
+        padding-left: 44px;
+    }
+
+    .friendlyCardIcon img {
+        width: 40%;
+    }
+
+    .ScalableCardIcon {
+        padding-left: 44px;
+    }
+
+    .ScalableCardIcon img {
+        width: 40%;
+    }
+
+    .supportCardIcon {
+        padding-left: 44px;
+    }
+
+    .supportCardIcon img {
+        width: 68%;
+    }
+
+    .we-Do-Part {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .weDoHeader h3 {
+        font-size: 36px;
+    }
+
+    .weDoPara {
+        margin-top: 20px;
+    }
+
+    .servicesPart {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .cardsSection-1 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .cardsSection-2 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .card-1 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    .card-3 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-4 {
+        width: 100%;
+    }
+
+    .Section-3 {
+        padding-bottom: 46px;
+    }
+
+    .Section-4 .clientPart {
+        width: 100%;
+    }
+
+    .easyToCard {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .saveTimeCard {
+        width: 100%;
+    }
+
+    .supportCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .ScalableCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .friendlyCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .accurateCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .Section-5 {
+        background-size: cover;
+
+    }
+
+    .object {
+        display: none;
+    }
+
+    .intergrateHeader h2 {
+        padding-top: 44px;
+    }
+
+    .integratecontent {
+        width: 100%;
+    }
+
+    .integrateImage {
+        width: 100%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .Section-6 {
+        padding-bottom: 16px;
+    }
+
+    .resourcesHeading h3 {
+        width: 94%;
+        margin: 0 autoa;
+    }
+
+    .resourcesCards {
+        width: 95%;
+    }
+
+    .resCard1 {
+        width: 100%;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .details-1 .span1 {
+        width: 39%;
+    }
+
+    .details-1 .span2 {
+        width: 32%;
+    }
+
+    .voyance-Name-logo {
+        width: 25%;
+        padding-top: 14px;
+    }
+
+    .resCard2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .details-2 .span1 {
+        width: 49%;
+    }
+
+    .details-2 .span2 {
+        width: 37%;
+    }
+
+    .DataPlatform-logo {
+        width: 29%;
+        padding-top: 21px;
+    }
+
+    .resCard3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .details-3 .span1 {
+        width: 36%;
+    }
+
+    .details-3 .span2 {
+        width: 26%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 25%;
+        padding-top: 23px;
+    }
+
+    .Section-7 {
+        padding-bottom: 30px;
+    }
+
+    .reduceContext {
+        width: 100%;
+        padding-top: 33px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    .reduceHeader h3 {
+        font-size: 33px;
+    }
+
+    .vector2 img {
+        width: 100%;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 84%;
+        left: 45%;
+    }
+
+    .SliderLeft {
+        width: 100%;
+    }
+
+    .SliderLeft img {
+        width: 100%;
+    }
+
+    .SliderRight {
+        width: 100%;
+    }
+
+    .sliderHeader h3 {
+        top: 0;
+        left: -53px;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        left: 228px;
+        width: 29%;
+        top: -23px;
+    }
+
+    .footervoyance {
+        width: 89%;
+        margin: 0 auto;
+    }
+
+    .voyanceFooterHeader {
+        width: 25%;
+        /* margin: 0 auto; */
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .company {
+        width: 25%;
+        padding-bottom: 27px;
+    }
+
+    .products {
+        width: 25%;
+        padding-bottom: 27px;
+
+
+    }
+
+    .legal {
+        width: 37%;
+        padding-bottom: 27px;
+
+    }
+
+    .support {
+        width: 25%;
+        /* padding-bottom: 27px; */
+
+    }
+
+    .resources {
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+
+    }
+
+    .footerAddress {
+        width: 100%;
+        text-align: start;
+        padding: 0 0 0 21px;
+    }
+
+    .voyanceaddress {
+        width: 46%;
+    }
+
+    .voyancecontact {
+        width: 35%;
+    }
+
+    .voyanceemail {
+        width: 53%;
+    }
+
+}
+
+@media (min-width:685px) and (max-width:767px) {
+    .desktopContainer {
+        display: none;
+    }
+
+    .mobilehamburger {
+        display: block;
+        background: rgb(23, 39, 145);
+    }
+
+    .hamburgerBar {
+        padding: 15px;
+    }
+
+    .InsideHamburger {
+        display: none;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background: rgb(23, 39, 145);
+        ;
+        z-index: 99;
+        height: 100vh;
+    }
+
+    .InsideHamburger ul li {
+        padding: 10px;
+    }
+
+    .MobilenavbarButtons {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .MobilexnavbarButtons a {
+        /* padding: 20px; */
+        font-size: 14px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .imagePart {
+        display: none;
+    }
+
+    .headingPart {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/39f6a005763b37e2237b320df0e68e31\ 1.png);
+        mix-blend-mode: screen;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .headingPart h1 {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 35px;
+        line-height: 68px;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 22%;
+        width: 26%;
+        left: 32px;
+    }
+
+    .heroPara p {
+        width: 92%;
+        padding-top: 2px;
+    }
+
+    .heroBtn-1 {
+        margin-bottom: 10px;
+    }
+
+    .heroBottomImage {
+        display: none;
+    }
+
+    .heroButtons {
+        padding-top: 32px;
+        width: 92%;
+    }
+
+    .headerBottom {
+        width: 89%;
+        margin: 0 auto;
+        margin-bottom: 27px;
+        padding-top: 29px;
+        flex-direction: column;
+    }
+
+    .headerBottom .borderLeft {
+        width: 100%;
+    }
+
+    .headerBottom .borderRight {
+        width: 100%;
+    }
+
+    .trustedPara {
+        text-align: center;
+    }
+
+    .headerBottomLogo {
+        width: 92%;
+    }
+
+    .innerLogo {
+        flex-direction: column;
+    }
+
+    .bottomLogo-1 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-2 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-3 {
+        padding-top: 20px;
+    }
+
+    .bottomLogo-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Section-1 {
+        padding: 0 0 215px 0;
+    }
+
+    .fullSec {
+        flex-direction: column-reverse;
+    }
+
+    .fastDataPart {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .fastHeading {
+        margin-top: 35px;
+    }
+
+    .fastPara {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .whiteBoard {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .playButton {
+        width: 16%;
+        top: 49%;
+        left: 41%;
+
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .mask {
+        width: 100%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .Section-2-ImagesSection {
+        display: none !important;
+    }
+
+    .dataPlatformSection {
+        width: 100%;
+        border-radius: 83px;
+    }
+
+    .platformSection {
+        padding-top: 60px;
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 62%;
+    }
+
+    .headerlogo-2 {
+        width: 62%;
+    }
+
+    .headerlogo-3 {
+        width: 47%;
+    }
+
+    .headerlogo-4 {
+        width: 71%;
+    }
+
+    .Scetion-2 {
+        padding-bottom: 0;
+    }
+
+    .ourService {
+        width: 100%;
+    }
+
+    .easyCardIcon img {
+        width: 40%;
+    }
+
+    .easyCardIcon {
+        padding-left: 44px;
+    }
+
+    .saveCardIcon img {
+        width: 40%;
+    }
+
+    .saveCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon {
+        padding-left: 44px;
+    }
+
+    .accurateCardIcon img {
+        width: 40%;
+    }
+
+    .friendlyCardIcon {
+        padding-left: 44px;
+    }
+
+    .friendlyCardIcon img {
+        width: 40%;
+    }
+
+    .ScalableCardIcon {
+        padding-left: 44px;
+    }
+
+    .ScalableCardIcon img {
+        width: 40%;
+    }
+
+    .supportCardIcon {
+        padding-left: 44px;
+    }
+
+    .supportCardIcon img {
+        width: 68%;
+    }
+
+    .we-Do-Part {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .weDoHeader h3 {
+        font-size: 36px;
+    }
+
+    .weDoPara {
+        margin-top: 20px;
+    }
+
+    .servicesPart {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .cardsSection-1 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .cardsSection-2 {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .card-1 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    .card-3 {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
+    .card-4 {
+        width: 100%;
+    }
+
+    .Section-3 {
+        padding-bottom: 46px;
+    }
+
+    .Section-4 .clientPart {
+        width: 100%;
+    }
+
+    .easyToCard {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .saveTimeCard {
+        width: 100%;
+    }
+
+    .supportCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .ScalableCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .friendlyCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .accurateCard {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .Section-5 {
+        background-size: cover;
+
+    }
+
+    .object {
+        display: none;
+    }
+
+    .intergrateHeader h2 {
+        padding-top: 44px;
+    }
+
+    .integratecontent {
+        width: 100%;
+    }
+
+    .integrateImage {
+        width: 100%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .Section-6 {
+        padding-bottom: 16px;
+    }
+
+    .resourcesHeading h3 {
+        width: 94%;
+        margin: 0 autoa;
+    }
+
+    .resourcesCards {
+        width: 95%;
+    }
+
+    .resCard1 {
+        width: 100%;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .details-1 .span1 {
+        width: 32%;
+    }
+
+    .details-1 .span2 {
+        width: 32%;
+    }
+
+    .voyance-Name-logo {
+        width: 20%;
+        padding-top: 14px;
+    }
+
+    .resCard2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .details-2 .span1 {
+        width: 41%;
+    }
+
+    .details-2 .span2 {
+        width: 30%;
+    }
+
+    .DataPlatform-logo {
+        width: 25%;
+        padding-top: 21px;
+    }
+
+    .resCard3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .details-3 .span1 {
+        width: 30%;
+    }
+
+    .details-3 .span2 {
+        width: 26%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 20%;
+        padding-top: 23px;
+    }
+
+    .Section-7 {
+        padding-bottom: 30px;
+    }
+
+    .reduceContext {
+        width: 100%;
+        padding-top: 33px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+
+    }
+
+    .reduceHeader h3 {
+        font-size: 33px;
+    }
+
+    .vector2 img {
+        width: 100%;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 84%;
+        left: 45%;
+    }
+
+    .SliderLeft {
+        width: 100%;
+    }
+
+    .SliderLeft img {
+        width: 100%;
+    }
+
+    .SliderRight {
+        width: 100%;
+    }
+
+    .sliderHeader h3 {
+        top: 0;
+        left: -53px;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        left: 347px;
+        width: 19%;
+        top: -23px;
+    }
+
+    .footervoyance {
+        width: 89%;
+        margin: 0 auto;
+    }
+
+    .voyanceFooterHeader {
+        width: 25%;
+        /* margin: 0 auto; */
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .company {
+        width: 25%;
+        padding-bottom: 27px;
+    }
+
+    .products {
+        width: 25%;
+        padding-bottom: 27px;
+
+
+    }
+
+    .legal {
+        width: 37%;
+        padding-bottom: 27px;
+
+    }
+
+    .support {
+        width: 25%;
+        /* padding-bottom: 27px; */
+
+    }
+
+    .resources {
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 27px;
+
+    }
+
+    .footerAddress {
+        width: 100%;
+        text-align: start;
+        padding: 0 0 0 21px;
+    }
+
+    .voyanceaddress {
+        width: 35%;
+    }
+
+    .voyancecontact {
+        width: 26%;
+    }
+
+    .voyanceemail {
+        width: 41%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-width {
+        width: 99%;
+        margin: 0 auto;
+        padding: 6px;
+    }
+
+    .logo {
+        width: 13%;
+    }
+
+    .loginBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(175, 175, 175, 1);
+        background: transparent;
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .getBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(19, 67, 199, 1);
+        background: rgba(19, 67, 199, 1);
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .navbarlist-width {
+        width: 46%;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 21%;
+        width: 17%;
+        left: 27px;
+    }
+
+    .headingPart h1 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 26px;
+        font-family: 'aeonikprotrial-bold';
+        font-weight: 700;
+        padding-top: 83px;
+        line-height: 43px;
+        position: relative;
+    }
+
+    .heroPara p {
+        width: 85%;
+        font-weight: 400;
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 25px;
+    }
+
+    .heroBtn-1 {
+        border: 1px solid rgba(175, 175, 175, 1);
+        padding: 10px 16px 10px 16px;
+        border-radius: 5px;
+        background: transparent;
+        font-family: 'aeonikprotrial-regular';
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .heroBtn-2 {
+        padding: 10px 16px 10px 16px;
+    }
+
+    .headerBottom .borderLeft {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .headerBottom .borderRight {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .innerLogo {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .headerBottomLogo {
+        margin-top: 27px;
+        width: 68%;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 7px 0;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .Section-1 {
+        padding: 0 0 102px 0;
+    }
+
+    .heroBottomImage {
+        top: 59%;
+    }
+
+    .mask {
+        width: 69%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .whiteBoard {
+        width: 59%;
+        left: 8%;
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .playButton {
+        position: absolute;
+        top: 31%;
+        left: 32%;
+        width: 10%;
+    }
+
+    .fastHeading {
+        margin-top: 0;
+    }
+
+    .fastHeading h2 {
+        padding-top: 24px;
+        font-size: 19px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 30px;
+    }
+
+    .fastPara {
+        width: 81%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 11px;
+        font-family: 'aeonikprotrial-regular';
+        line-height: 26px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .platformSection {
+        padding-top: 111px;
+        border-radius: 110px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .dataPlatformSection {
+        background-color: rgba(255, 255, 255, 1);
+        width: 75%;
+        border-radius: 0 83px 83px 0;
+    }
+
+    .PlatformParagraphs {
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 90%;
+    }
+
+    .headerlogo-2 {
+        width: 92%;
+    }
+
+    .PlatformParagraphs-2 {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .headerlogo-3 {
+        width: 79%;
+    }
+
+    .headerlogo-4 {
+        width: 100%;
+    }
+
+    .ourService {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 69px;
+    }
+
+    .we-Do-Part {
+        width: 30%;
+    }
+
+    .servicesPart {
+        width: 65%;
+        /* margin-top: 114px; */
+    }
+
+    .card-1Header h3 {
+        padding-top: 24px;
+        font-size: 17px;
+        line-height: 32px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+    }
+
+    .saveCardIcon {
+        width: 36%;
+        padding-left: 28px;
+    }
+
+    .saveHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .savePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .easyCardIcon {
+        width: 39%;
+        padding-left: 28px;
+    }
+
+    .easyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .easyPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    .clientPart p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 10.8px;
+    }
+
+    .clientPart h2 {
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 31.2px;
+    }
+
+    .accurateHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .accuratePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .friendlyCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .friendlyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1p0x;
+    }
+
+    .friendlyPara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .ScalableCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .ScalableHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .ScalablePara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .supportCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .supportHeader h3 {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .supportPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .integrateImage {
+        width: 50%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .intergrateHeader h2 {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 37px;
+        padding-top: 74px;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .resourcesHeading h3 {
+        font-size: 25px;
+        padding-top: 32px;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .card-1-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-1-Para p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .details-1 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span1 .twitterText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 61%;
+    }
+
+    .details-1 .span1 {
+        width: 80%;
+    }
+
+    .voyanceLogo {
+        width: 28%;
+    }
+
+    .voyance-Name-logo {
+        width: 55%;
+        padding-top: 14px;
+    }
+
+    .voyanceName {
+        font-size: 16px;
+    }
+
+    .card-2-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-2-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-2 .span1 .dataText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span1 .autoText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-1 {
+        margin-top: 35px;
+    }
+
+    .details-2 .span1 {
+        width: 97%;
+    }
+
+    .details-2 {
+        margin-top: 57px;
+    }
+
+    .DataPlatform-logo {
+        width: 68%;
+        padding-top: 14px;
+    }
+
+    .DataLogo {
+        width: 22%;
+    }
+
+    .DataName {
+        font-size: 16px;
+    }
+
+    .card-3-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-3-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-3 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span1 .pipelineText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-3 .span1 {
+        width: 75%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 55%;
+        padding-top: 12px;
+    }
+
+    .vector2 img {
+        width: 85%;
+    }
+
+    .reduceHeader h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 79%;
+    }
+
+    .reduceButton {
+        padding-top: 17px;
+    }
+
+    #carouselSlider {
+        width: 87% !important;
+        margin: 0 auto;
+    }
+
+    .sliderHeader h3 {
+        left: 44px;
+
+    }
+
+    .SliderRight {
+        width: 49%;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        top: -94px;
+        left: -67px;
+        width: 12%;
+    }
+
+    .socialHandles {
+        padding-top: 14px;
+    }
+
+    .company ul li {
+        line-height: 20px;
+    }
+
+    .products ul li {
+        line-height: 20px;
+    }
+
+    .legal ul li {
+        line-height: 20px;
+    }
+
+    .support ul li {
+        line-height: 20px;
+    }
+
+    .resources ul li {
+        line-height: 20px;
+    }
+
+    .footerAddress {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .voyanceaddress {
+        width: 31%;
+    }
+
+    .voyancecontact {
+        width: 22%;
+    }
+
+    .voyanceemail {
+        width: 37%;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1023px) {
+    .navbar-width {
+        width: 99%;
+        margin: 0 auto;
+        padding: 6px;
+    }
+
+    .logo {
+        width: 13%;
+    }
+
+    .loginBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(175, 175, 175, 1);
+        background: transparent;
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .getBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(19, 67, 199, 1);
+        background: rgba(19, 67, 199, 1);
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .navbarlist-width {
+        width: 46%;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 24%;
+        width: 13%;
+        left: 34px;
+    }
+
+    .headingPart h1 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 26px;
+        font-family: 'aeonikprotrial-bold';
+        font-weight: 700;
+        padding-top: 83px;
+        line-height: 43px;
+        position: relative;
+    }
+
+    .heroPara p {
+        width: 85%;
+        font-weight: 400;
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 25px;
+    }
+
+    .heroBtn-1 {
+        border: 1px solid rgba(175, 175, 175, 1);
+        padding: 10px 16px 10px 16px;
+        border-radius: 5px;
+        background: transparent;
+        font-family: 'aeonikprotrial-regular';
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .heroBtn-2 {
+        padding: 10px 16px 10px 16px;
+    }
+
+    .headerBottom .borderLeft {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .headerBottom .borderRight {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .innerLogo {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .headerBottomLogo {
+        margin-top: 27px;
+        width: 68%;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 7px 0;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .heroBottomImage img {
+        width: 100%;
+    }
+
+    .heroBottomImage {
+        top: 62%;
+    }
+
+    .Section-1 {
+        padding: 0 0 102px 0;
+    }
+
+
+    .fastDataPart {
+        width: 93%;
+    }
+
+    .mask {
+        width: 69%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .whiteBoard {
+        width: 59%;
+        left: 8%;
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .playButton {
+        position: absolute;
+        top: 31%;
+        left: 32%;
+        width: 10%;
+    }
+
+    .fastHeading {
+        margin-top: 0;
+    }
+
+    .fastHeading h2 {
+        padding-top: 24px;
+        font-size: 19px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 30px;
+    }
+
+    .fastPara {
+        width: 81%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 11px;
+        font-family: 'aeonikprotrial-regular';
+        line-height: 26px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .platformSection {
+        padding-top: 111px;
+        border-radius: 110px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .dataPlatformSection {
+        background-color: rgba(255, 255, 255, 1);
+        width: 75%;
+        border-radius: 0 83px 83px 0;
+    }
+
+    .PlatformParagraphs {
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 75%;
+    }
+
+    .headerlogo-2 {
+        width: 75%;
+    }
+
+    .PlatformParagraphs-2 {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .headerlogo-3 {
+        width: 72%;
+    }
+
+    .headerlogo-4 {
+        width: 93%;
+    }
+
+    .ourService {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 69px;
+    }
+
+    .we-Do-Part {
+        width: 30%;
+    }
+
+    .servicesPart {
+        width: 65%;
+        /* margin-top: 114px; */
+    }
+
+    .card-1Header h3 {
+        padding-top: 24px;
+        font-size: 17px;
+        line-height: 32px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+    }
+
+    .saveCardIcon {
+        width: 36%;
+        padding-left: 28px;
+    }
+
+    .saveHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .savePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .easyCardIcon {
+        width: 39%;
+        padding-left: 28px;
+    }
+
+    .easyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .easyPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    .clientPart p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 10.8px;
+    }
+
+    .clientPart h2 {
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 31.2px;
+    }
+
+    .accurateHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .accuratePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .friendlyCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .friendlyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1p0x;
+    }
+
+    .friendlyPara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .ScalableCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .ScalableHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .ScalablePara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .supportCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .supportHeader h3 {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .supportPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .integrateImage {
+        width: 50%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .intergrateHeader h2 {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 37px;
+        padding-top: 74px;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .resourcesHeading h3 {
+        font-size: 25px;
+        padding-top: 32px;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .card-1-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-1-Para p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .details-1 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span1 .twitterText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 61%;
+    }
+
+    .details-1 .span1 {
+        width: 62%;
+    }
+
+    .voyanceLogo {
+        width: 28%;
+    }
+
+    .voyance-Name-logo {
+        width: 55%;
+        padding-top: 14px;
+    }
+
+    .voyanceName {
+        font-size: 16px;
+    }
+
+    .card-2-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-2-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-2 .span1 .dataText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span1 .autoText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-1 {
+        margin-top: 35px;
+    }
+
+    .details-2 .span1 {
+        width: 77%;
+    }
+
+    .details-2 {
+        margin-top: 57px;
+    }
+
+    .DataPlatform-logo {
+        width: 68%;
+        padding-top: 14px;
+    }
+
+    .DataLogo {
+        width: 22%;
+    }
+
+    .DataName {
+        font-size: 16px;
+    }
+
+    .card-3-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-3-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-3 {
+        margin-top: 38px;
+    }
+
+    .details-3 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span1 .pipelineText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-3 .span1 {
+        width: 58%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 55%;
+        padding-top: 12px;
+    }
+
+    .vector2 img {
+        width: 85%;
+    }
+
+    .reduceHeader h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 79%;
+    }
+
+    .reduceButton {
+        padding-top: 17px;
+    }
+
+    #carouselSlider {
+        width: 87% !important;
+        margin: 0 auto;
+    }
+
+    .sliderHeader h3 {
+        left: 44px;
+
+    }
+
+    .SliderRight {
+        width: 49%;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        top: -94px;
+        left: -67px;
+        width: 12%;
+    }
+
+    .socialHandles {
+        padding-top: 14px;
+    }
+
+    .company ul li {
+        line-height: 20px;
+    }
+
+    .products ul li {
+        line-height: 20px;
+    }
+
+    .legal ul li {
+        line-height: 20px;
+    }
+
+    .support ul li {
+        line-height: 20px;
+    }
+
+    .resources ul li {
+        line-height: 20px;
+    }
+
+    .footerAddress {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .voyanceaddress {
+        width: 24%;
+    }
+
+    .voyancecontact {
+        width: 17%;
+    }
+
+    .voyanceemail {
+        width: 29%;
+    }
+
+}
+@media (min-width:1024px) and (max-width:1199px) {
+    .navbar-width {
+        width: 99%;
+        margin: 0 auto;
+        padding: 6px;
+    }
+
+    .logo {
+        width: 13%;
+    }
+
+    .loginBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(175, 175, 175, 1);
+        background: transparent;
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .getBtn {
+        padding: 7px 22px 7px 22px;
+        border-radius: 5px;
+        border: 1px solid rgba(19, 67, 199, 1);
+        background: rgba(19, 67, 199, 1);
+        color: white;
+        font-size: 11px;
+        font-family: 'aeonikprotrial-regular';
+    }
+
+    .navbarlist-width {
+        width: 46%;
+    }
+
+    .headingimage {
+        position: absolute;
+        top: 24%;
+        width: 13%;
+        left: 34px;
+    }
+
+    .headingPart h1 {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 26px;
+        font-family: 'aeonikprotrial-bold';
+        font-weight: 700;
+        padding-top: 83px;
+        line-height: 43px;
+        position: relative;
+    }
+
+    .heroPara p {
+        width: 85%;
+        font-weight: 400;
+        margin: 0 auto;
+        font-size: 15px;
+        line-height: 26px;
+        padding-top: 25px;
+    }
+
+    .heroBtn-1 {
+        border: 1px solid rgba(175, 175, 175, 1);
+        padding: 10px 16px 10px 16px;
+        border-radius: 5px;
+        background: transparent;
+        font-family: 'aeonikprotrial-regular';
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .heroBtn-2 {
+        padding: 10px 16px 10px 16px;
+    }
+
+    .headerBottom .borderLeft {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .headerBottom .borderRight {
+        border-top: 1px solid rgba(175, 175, 175, 1);
+        width: 16%;
+        margin: 0 auto;
+    }
+
+    .innerLogo {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .headerBottomLogo {
+        margin-top: 27px;
+        width: 68%;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 7px 0;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .heroBottomImage img {
+        width: 100%;
+    }
+
+    .heroBottomImage {
+        top: 62%;
+    }
+
+    .Section-1 {
+        padding: 0 0 102px 0;
+    }
+
+
+    .fastDataPart {
+        width: 93%;
+    }
+
+    .mask {
+        width: 69%;
+    }
+
+    .mask img {
+        width: 100%;
+    }
+
+    .whiteBoard img {
+        width: 100%;
+    }
+
+    .whiteBoard {
+        width: 59%;
+        left: 8%;
+    }
+
+    .playButton img {
+        width: 100%;
+    }
+
+    .playButton {
+        position: absolute;
+        top: 31%;
+        left: 32%;
+        width: 10%;
+    }
+
+    .fastHeading {
+        margin-top: 0;
+    }
+
+    .fastHeading h2 {
+        padding-top: 24px;
+        font-size: 19px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 30px;
+    }
+
+    .fastPara {
+        width: 81%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 11px;
+        font-family: 'aeonikprotrial-regular';
+        line-height: 26px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .platformSection {
+        padding-top: 111px;
+        border-radius: 110px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .dataPlatformSection {
+        background-color: rgba(255, 255, 255, 1);
+        width: 75%;
+        border-radius: 0 83px 83px 0;
+    }
+
+    .PlatformParagraphs {
+        width: 93%;
+    }
+
+    .headerlogo-1 {
+        width: 75%;
+    }
+
+    .headerlogo-2 {
+        width: 75%;
+    }
+
+    .PlatformParagraphs-2 {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .headerlogo-3 {
+        width: 72%;
+    }
+
+    .headerlogo-4 {
+        width: 93%;
+    }
+
+    .ourService {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 69px;
+    }
+
+    .we-Do-Part {
+        width: 30%;
+    }
+
+    .servicesPart {
+        width: 65%;
+        /* margin-top: 114px; */
+    }
+
+    .card-1Header h3 {
+        padding-top: 24px;
+        font-size: 17px;
+        line-height: 32px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+    }
+
+    .saveCardIcon {
+        width: 36%;
+        padding-left: 28px;
+    }
+
+    .saveHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .savePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .easyCardIcon {
+        width: 39%;
+        padding-left: 28px;
+    }
+
+    .easyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+    }
+
+    .easyPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    .clientPart p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 10.8px;
+    }
+
+    .clientPart h2 {
+        font-size: 21px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 31.2px;
+    }
+
+    .accurateHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .accuratePara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .friendlyCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .friendlyHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1p0x;
+    }
+
+    .friendlyPara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .ScalableCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .ScalableHeader h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .ScalablePara p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .supportCardIcon {
+        width: 33%;
+        padding-left: 28px;
+    }
+
+    .supportHeader h3 {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .supportPara p {
+        width: 81%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .integrateImage {
+        width: 50%;
+    }
+
+    .integrateImage img {
+        width: 100%;
+    }
+
+    .intergrateHeader h2 {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'aeonikprotrial-bold';
+        line-height: 37px;
+        padding-top: 74px;
+    }
+
+    .object {
+        display: none;
+    }
+
+    .resourcesHeading h3 {
+        font-size: 25px;
+        padding-top: 32px;
+    }
+
+    .resCard1 img {
+        width: 100%;
+    }
+
+    .resCard2 img {
+        width: 100%;
+    }
+
+    .resCard3 img {
+        width: 100%;
+    }
+
+    .card-1-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-1-Para p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .details-1 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span1 .twitterText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-1 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 61%;
+    }
+
+    .details-1 .span1 {
+        width: 62%;
+    }
+
+    .voyanceLogo {
+        width: 28%;
+    }
+
+    .voyance-Name-logo {
+        width: 55%;
+        padding-top: 14px;
+    }
+
+    .voyanceName {
+        font-size: 16px;
+    }
+
+    .card-2-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-2-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-2 .span1 .dataText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span1 .autoText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-2 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-1 {
+        margin-top: 35px;
+    }
+
+    .details-2 .span1 {
+        width: 77%;
+    }
+
+    .details-2 {
+        margin-top: 57px;
+    }
+
+    .DataPlatform-logo {
+        width: 68%;
+        padding-top: 14px;
+    }
+
+    .DataLogo {
+        width: 22%;
+    }
+
+    .DataName {
+        font-size: 16px;
+    }
+
+    .card-3-Heading h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card-3-Para p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .details-3 {
+        margin-top: 38px;
+    }
+
+    .details-3 .span1 .voyanceText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span1 .pipelineText {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .details-3 .span2 {
+        font-size: 12px;
+        line-height: 16px;
+        width: 71%;
+    }
+
+    .details-3 .span1 {
+        width: 58%;
+    }
+
+    .voyance-Name-2-logo {
+        width: 55%;
+        padding-top: 12px;
+    }
+
+    .vector2 img {
+        width: 85%;
+    }
+
+    .reduceHeader h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .vector2 {
+        position: absolute;
+        top: 79%;
+    }
+
+    .reduceButton {
+        padding-top: 17px;
+    }
+
+    #carouselSlider {
+        width: 87% !important;
+        margin: 0 auto;
+    }
+
+    .sliderHeader h3 {
+        left: 44px;
+
+    }
+
+    .SliderRight {
+        width: 49%;
+    }
+
+    .Sliderbuttons {
+        position: relative;
+        top: -94px;
+        left: -67px;
+        width: 12%;
+    }
+
+    .socialHandles {
+        padding-top: 14px;
+    }
+
+    .company ul li {
+        line-height: 20px;
+    }
+
+    .products ul li {
+        line-height: 20px;
+    }
+
+    .legal ul li {
+        line-height: 20px;
+    }
+
+    .support ul li {
+        line-height: 20px;
+    }
+
+    .resources ul li {
+        line-height: 20px;
+    }
+
+    .footerAddress {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .voyanceaddress {
+        width: 24%;
+    }
+
+    .voyancecontact {
+        width: 17%;
+    }
+
+    .voyanceemail {
+        width: 29%;
+    }
+
+}

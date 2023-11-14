@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dropdown with Arrow</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .buttonDrop {
+            display: flex;
+            justify-content: space-between;
+            background-color: antiquewhite;
+            align-items: center;
+            border-radius: 4px;
+            margin: 0;
+            padding: 0px 22px;
+            width: 90%;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropBtn h3 {
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+
+        .icon .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+                color: blue;
+                cursor: pointer;
+        }
+
+        /* Style the dropdown menu */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-menu {
+            display: none;
+        }
+
+        .dropdown-menu li {
+            list-style: none;
+        }
+
+        .dropdown-menu a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <div class="buttonDrop" onclick="myFunction('dropbtn1')">
+            <div class="dropBtn " >
+                <h3>
+                    Dropdown
+                </h3>
+            </div>
+            <div class="icon">
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+
+            </div>
+        </div>
+        <ul class="dropdown-menu" id="dropbtn1">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function myFunction(id) {
+            console.log('id::::::::::::::', id)
+            var x = document.getElementById(id);
+
+            if (x.style.display === "" || x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            AOS.refresh();
+        }
+    </script>
+</body>
+
+</html>
